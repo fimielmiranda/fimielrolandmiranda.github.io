@@ -1,0 +1,146 @@
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #233;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+
+<div class="navbar">
+  <a href="file:///C:/Users/Administrator/Desktop/PERSONAL%20WEB/personalweb.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Personal 
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Personal Data</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP2/MP2byme.html">About Me</a>
+      <a href="file:///C:/Users/Administrator/Desktop/PERSONAL%20WEB/interest.html">Interest</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Education 
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Desktop/PERSONAL%20WEB/elementary.html">Grade School</a>
+      <a href="file:///C:/Users/Administrator/Desktop/PERSONAL%20WEB/highschool.html">High School</a>
+      <a href="file:///C:/Users/Administrator/Desktop/PERSONAL%20WEB/college.html">College</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Family
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Desktop/PERSONAL%20WEB/parents.html">Parents</a>
+      <a href="file:///C:/Users/Administrator/Desktop/PERSONAL%20WEB/siblings.html">Sibling</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Friends
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Desktop/PERSONAL%20WEB/friends.html">College Friends</a>
+      <a href="file:///C:/Users/Administrator/Desktop/PERSONAL%20WEB/friends1.html">High School Friends</a>
+      <a href="file:///C:/Users/Administrator/Desktop/PERSONAL%20WEB/cousins.html">Cousins</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Gallery
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Desktop/PERSONAL%20WEB/gallery.html">Me</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">I.T306 Activities
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP1/MP1byme.html">MP1</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP2/MP2byme.html">MP2</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP3/MP3bymiranda.html">MP3</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP4/mp4.html">MP4</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP5/mp5fim.html">MP5</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP6/mp6fim.html">MP6</a>
+      <a href="file:///C:/Users/Administrator/Desktop/MP7/drop-down-menu.html">MP 7</a>
+    </div>
+  </div>
+
+</div>
+
+</br>
+<frameset rows="100">
+
+<frameset cols="*,*,*">
+   <frame src="file:///C:/Users/Administrator/Documents/WEBDEV/MP2/MP2byme.html" noresize="noresize" scrolling="no">
+
+<frameset rows="25%,25%,25%">
+   <frame src="file:///C:/Users/Administrator/Documents/WEBDEV/MP4/mp4.html" noresize="noresize">
+   <frame src="file:///C:/Users/Administrator/Documents/WEBDEV/MP5/frontpage.html" scrolling="no" noresize="noresize">
+   <frame src="file:///C:/Users/Administrator/Documents/WEBDEV/MP3/MP3bymiranda.html" noresize="noresize">
+</frameset>
+   
+   <frame src="file:///C:/Users/Administrator/Documents/WEBDEV/MP1/MP1byme.html" noresize="noresize">
+
+
+</frameset>
+
+
+

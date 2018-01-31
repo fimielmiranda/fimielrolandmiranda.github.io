@@ -1,0 +1,129 @@
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #233;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+
+<div class="navbar">
+  <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/dropdownmenu.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Personal 
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/PERSONALDATA.html">Personal Data</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/aboutme.html">About Me</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/interest.html">Interest</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Education 
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/elementary.html">Grade School</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/highschool.html">High School</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/college.html">College</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Family
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/parents.html">Parents</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/siblings.html">Sibling</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Friends
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/friends.html">College Friends</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/friends1.html">High School Friends</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/cousins.html">Cousins</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Gallery
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/gallery.html">Me</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">I.T306 Activities
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP1/MP1byme.html">MP1</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP2/MP2byme.html">MP2</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP3/MP3bymiranda.html">MP3</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP4/mp4.html">MP4</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP6/mp6fim.html">MP6</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP7/MP7.html">MP 7</a>
+    </div>
+  </div>
+
+</div>
+
+</br>
+<BODY BackGround="me.jpg">
+<p style="text-align:center;"><img src="highschool.png" alt="logo" height="500" width="500"></p></body>

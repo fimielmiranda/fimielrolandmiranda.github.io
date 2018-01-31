@@ -1,0 +1,333 @@
+
+<html>
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #233;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+
+<div class="navbar">
+  <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/dropdownmenu.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Personal 
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/PERSONALDATA.html">Personal Data</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/aboutme.html">About Me</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/interest.html">Interest</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Education 
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/elementary.html">Grade School</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/highschool.html">High School</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/college.html">College</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Family
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/parents.html">Parents</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/siblings.html">Sibling</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Friends
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/friends.html">College Friends</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/friends1.html">High School Friends</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/cousins.html">Cousins</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Gallery
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/gallery.html">Me</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">I.T306 Activities
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP1/MP1byme.html">MP1</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP2/MP2byme.html">MP2</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP3/MP3bymiranda.html">MP3</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP4/mp4.html">MP4</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP6/mp6fim.html">MP6</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP7/MP7.html">MP 7</a>
+    </div>
+  </div>
+
+</div>
+
+</br>
+<head><title>MP7 By Me</title>
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #233;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Menu 1 
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP1/MP1byme.html">MP1</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP2/MP2byme.html">MP2</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP3/MP3bymiranda.html">MP3</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Menu 2 
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP4/mp4.html">MP4</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP6/mp6fim.html">MP6</a>
+    </div>
+  </div>
+<div class="dropdown">
+    <button class="dropbtn">Menu 3
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 4</a>
+      <a href="#">Link 5</a>
+      <a href="#">Link 6</a>
+    </div>
+  </div>
+
+ <div class="dropdown">
+    <button class="dropbtn">Menu 4 
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 4</a>
+      <a href="#">Link 5</a>
+      <a href="#">Link 6</a>
+    </div>
+  </div>
+ <div class="dropdown">
+    <button class="dropbtn">Menu 5 
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 4</a>
+      <a href="#">Link 5</a>
+      <a href="#">Link 6</a>
+    </div>
+  </div>
+</div>
+
+<p style="text-align:center;"><video width="800" height="600" controls>
+  <source src="videoplayback.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</p>
+<br>
+<br>
+<p style="text-align:center;"><audio controls autoplay>
+  <source src="Drake - Fake Love .mp3.mp3 [mp3clan].wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+</p>
+<br>
+<br>
+<center><p><h1>"Fake Love"</h1><br>
+<br><br><br>
+
+Yeah, yeah<br><br>
+
+I've been down so long it look like up to me<br>
+They look up to me<br>
+I got fake people showin' fake love to me<br>
+Straight up to my face, straight up to my face<br>
+I've been down so long it look like up to me<br>
+They look up to me<br>
+I got fake people showin' fake love to me<br>
+Straight up to my face, straight up to my face<br><br>
+
+Somethin' ain't right when we talkin'<br>
+Somethin' ain't right when we talkin'<br>
+Look like you hidin' your problems<br>
+Really you never were solid<br>
+No you can't son me, you won't never get to run me<br>
+Just when shit look out of reach, I reach back like one, three<br>
+Like one, three, yeah<br><br>
+
+That's when they smile in my face<br>
+Whole time they wanna take my place<br>
+Whole time they wanna take my place<br>
+Whole time they wanna take my place<br>
+Yeah, I know they wanna take my place<br>
+I can tell that love is fake<br>
+I don't trust a word you say<br>
+How you wanna click up after your mistakes?<br>
+Look you in the face and it's just not the same<br><br>
+
+I've been down so long it look like up to me<br>
+They look up to me<br>
+I got fake people showin' fake love to me<br>
+Straight up to my face, straight up to my face<br>
+I've been down so long it look like up to me<br>
+They look up to me<br>
+I got fake people showin' fake love to me<br>
+Straight up to my face, straight up to my face<br><br>
+
+Yeah, straight up to my face, tryna play it safe<br>
+Vibe switch like night and day, I can see it like right away<br>
+I came up, you changed up, I caught that whole play<br>
+Since then, things never been the same<br><br>
+
+That's when they smile in my face<br>
+Whole time they wanna take my place<br>
+Whole time they wanna take my place<br>
+Whole time they wanna take my place<br>
+Yeah, I know they wanna take my place<br>
+I can tell that love is fake<br>
+(I can tell that love is fake)<br>
+I don't trust a word you say<br>
+(I don't trust a word you say)<br>
+How you wanna click up after your mistakes?<br>
+(How you wanna click up after your mistakes?)<br>
+Look you in the face and it's just not the same<br><br>
+
+I've been down so long it look like up to me<br>
+They look up to me<br>
+I got fake people showin' fake love to me<br>
+Straight up to my face, straight up to my face<br>
+I've been down so long it look like up to me<br>
+They look up to me<br>
+I got fake people showin' fake love to me<br>
+Straight up to my face, straight up to my face<br><br>
+
+Skrrt (skrrt, skrrt)<br>
+
+</p></center>
+
+</body>
+</html>

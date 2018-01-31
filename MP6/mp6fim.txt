@@ -1,0 +1,1243 @@
+<TITLE> MP6:COMPUTERIZED RESUME </TITLE>
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #233;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+
+<div class="navbar">
+  <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/dropdownmenu.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Personal 
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/PERSONALDATA.html">Personal Data</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/aboutme.html">About Me</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/interest.html">Interest</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Education 
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/elementary.html">Grade School</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/highschool.html">High School</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/college.html">College</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Family
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/parents.html">Parents</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/siblings.html">Sibling</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Friends
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/friends.html">College Friends</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/friends1.html">High School Friends</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/cousins.html">Cousins</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Gallery
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/PERSONAL%20WEBSITE/gallery.html">Me</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">I.T306 Activities
+      <i class="fa fa-hand-o-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP1/MP1byme.html">MP1</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP2/MP2byme.html">MP2</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP3/MP3bymiranda.html">MP3</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP4/mp4.html">MP4</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP6/mp6fim.html">MP6</a>
+      <a href="file:///C:/Users/Administrator/Documents/WEBDEV/MP7/MP7.html">MP 7</a>
+    </div>
+  </div>
+
+</div>
+
+</br>
+<BODY BGCOLOR="Cyan">
+</br>
+<div style="position: absolute; top: 20; right: 50; width: 135px; text-align:right;">
+<img id="image-preview"  style="height:150px; width:150px;"  src="" >
+
+<input style="display:none" id="input-image-hidden" onchange="document.getElementById('image-preview').src = window.URL.createObjectURL(this.files[0])" type="file" accept="image/jpeg, image/png">
+
+<button  onclick="HandleBrowseClick('input-image-hidden');" >CHOOSE PHOTO</button>
+
+
+<script type="text/javascript">
+function HandleBrowseClick(hidden_input_image)
+{
+    var fileinputElement = document.getElementById(hidden_input_image);
+    fileinputElement.click();
+}     
+</script>
+
+  </div>
+
+
+
+	<CENTER>	
+	<H3>MP6:COMPUTERIZED RESUME</H3>
+	<H3>BY:Fimiel Miranda</H3>
+	<H3>BSIT-III 15-00385/SECTION:Green</H3>
+	</CENTER>
+<br><br>
+<b><font color="black" size="5" face="Times New Roman">Personal Data:</font><b>
+<hr>
+<br><br>
+	<FORM>
+	    Surname: <INPUT Surname="NAME"> Name: <INPUT NAME="NAME"> Middle Name: <INPUT MIDDLE NAME="NAME">
+	<BR> <BR>
+  
+                 Complete Address:<INPUT NAME:"TEXT" SIZE="80" MAXLENGHT"="80">
+ 	<BR> <BR>
+
+                 Gender:
+            <INPUT TYPE="RADIO" NAME="OPTION"> MALE
+            <INPUT TYPE="RADIO" NAME="OPTION" CHECKED> FEMALE
+	<BR> <BR>
+	
+                 Citizenship: <INPUT NAME: "TEXT"> Religion: <input name:"text">
+	<br> <br>
+	
+                Status: <input type="checkbox" name="option"checked> Single
+         <input type="checkbox" name="option"> Married 
+         <input type="checkbox" name="option"> Widowed </br></br>
+            <br> <br>
+             
+              Birthday: Month
+	<select>
+	   <option> December </option>
+	   <option> November </option>
+	   <option> October </option>
+                <option> September </option>
+                <option> August </option>
+                <option> July </option>
+                <option> June </option>
+                 <option> May </option>
+                 <option> April </option>
+                 <option> March </option>
+                 <option> February </option>
+                  <option> January </option>
+ 	</select>
+
+                  Day:
+	<select>
+	   <option> 31 </option>
+	   <option> 30</option>
+	   <option> 29 </option>
+                <option> 28 </option>
+                <option> 27 </option>
+                <option> 26 </option>
+                <option> 25</option>
+                 <option> 24 </option>
+                 <option> 23 </option>
+                 <option> 22 </option>
+                 <option> 21 </option>
+                  <option> 20 </option>
+	   <option> 19 </option>
+	   <option> 18</option>
+	   <option> 17 </option>
+                <option> 16 </option>
+                <option> 15 </option>
+                <option> 14 </option>
+                <option> 13 </option>
+                 <option> 12 </option>
+                 <option> 11 </option>
+                 <option> 10 </option>
+                 <option> 9 </option>
+                  <option> 8 </option>
+	   <option> 7 </option>
+	   <option> 6 </option>
+	   <option> 5 </option>
+                <option> 4 </option>
+                <option> 3 </option>
+                <option> 2 </option>
+                <option> 1 </option>
+	</select>
+ 
+             Year:
+	<select>
+	   <option> 2017 </option>
+	   <option> 2016 </option>
+	   <option> 2015 </option>
+                <option> 2014 </option>
+                <option> 2013 </option>
+                <option> 2012 </option>
+                <option> 2011 </option>
+                 <option> 2012</option>
+                 <option> 2011 </option>
+                 <option> 2010 </option>
+                 <option> 2009</option>
+                  <option> 2008 </option>
+	   <option> 2007 </option>
+	   <option> 2006 </option>
+	   <option> 2005 </option>
+                <option> 2004 </option>
+                <option> 2003 </option>
+                <option> 2002 </option>
+                <option> 2001 </option>
+                 <option> 2000 </option>
+                 <option> 1999 </option>
+                 <option> 1998 </option>
+                 <option> 1997 </option>
+                  <option> 1996 </option>
+	   <option>1995 </option>
+	   <option>1994</option>
+	   <option>1993</option>
+                <option>1992</option>
+                <option>1991</option>
+                <option> 1990 </option>
+                <option> 1989 </option>
+                 <option> 1988 </option>
+                 <option> 1987 </option>
+                 <option> 1986 </option>
+                  <option> 1985 </option>
+	   <option>1984 </option>
+	   <option>1983</option>
+	   <option>1982</option>
+                <option>1981</option>
+                <option>1980</option>
+                <option> 1979 </option>
+                 <option> 1978 </option>
+                 <option> 1977 </option>
+                 <option> 1976 </option>
+                  <option> 1975 </option>
+	   <option>1974 </option>
+	   <option>1973</option>
+	   <option>1972</option>
+                <option>1971</option>
+                <option>1970</option>
+                <option> 1969 </option>
+                 <option> 1968 </option>
+                 <option> 1967 </option>
+                 <option> 1966 </option>
+                  <option> 1965 </option>
+	   <option>1964 </option>
+	   <option>1963</option>
+	   <option>1962</option>
+                <option>1961</option>
+                <option>1960</option>    
+	</select>
+Place of Birth: <INPUT NAME:"TEXT" SIZE="50" MAXLENGHT"="50">
+<br><br>
+	
+Telephone No:
+
+<SCRIPT language="Javascript">
+   
+      function isNumberKey(evt)
+      {
+         var charCode = (evt.which) ? evt.which : event.keyCode
+         if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+ 
+         return true;
+      }
+      
+   </SCRIPT>
+   </HEAD>
+   <BODY>
+      <INPUT id="txtChar" onkeypress="return isNumberKey(event)" type="text" name="txtChar">
+   
+
+
+Mobile No.:
+
+<SCRIPT language="Javascript">
+   
+      function isNumberKey(evt)
+      {
+         var charCode = (evt.which) ? evt.which : event.keyCode
+         if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+ 
+         return true;
+      }
+      
+   </SCRIPT>
+   </HEAD>
+   <BODY>
+      <INPUT id="txtChar" onkeypress="return isNumberKey(event)" type="text" name="txtChar">
+
+Alternate Cellphone:
+
+<SCRIPT language="Javascript">
+   
+      function isNumberKey(evt)
+      {
+         var charCode = (evt.which) ? evt.which : event.keyCode
+         if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+ 
+         return true;
+      }
+      
+   </SCRIPT>
+   </HEAD>
+   <BODY>
+      <INPUT id="txtChar" onkeypress="return isNumberKey(event)" type="text" name="txtChar">
+<br><br>
+
+Email Address: <input name="text"> Facebook User Name: <input name="text">
+<br><br>
+Language Known: <input name="text">
+Height:<INPUT NAME:"TEXT" SIZE="5" MAXLENGHT"="5">Weight:<INPUT NAME:"TEXT" SIZE="5" MAXLENGHT"="5"><br><br>
+Sprouse:<INPUT NAME:"TEXT" SIZE="50" MAXLENGHT"="50">Occupation:<INPUT NAME:"TEXT" SIZE="50" MAXLENGHT"="50"><br><br>
+Name of Children: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Date of birth:<br>
+<INPUT NAME:"TEXT" SIZE="50" MAXLENGHT"="50"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  	 Month:
+	<select>
+	   <option> December </option>
+	   <option> November </option>
+	   <option> October </option>
+                <option> September </option>
+                <option> August </option>
+                <option> July </option>
+                <option> June </option>
+                 <option> May </option>
+                 <option> April </option>
+                 <option> March </option>
+                 <option> February </option>
+                  <option> January </option>
+ 	</select>
+
+                  Day:
+	<select>
+	   <option> 31 </option>
+	   <option> 30</option>
+	   <option> 29 </option>
+                <option> 28 </option>
+                <option> 27 </option>
+                <option> 26 </option>
+                <option> 25</option>
+                 <option> 24 </option>
+                 <option> 23 </option>
+                 <option> 22 </option>
+                 <option> 21 </option>
+                  <option> 20 </option>
+	   <option> 19 </option>
+	   <option> 18</option>
+	   <option> 17 </option>
+                <option> 16 </option>
+                <option> 15 </option>
+                <option> 14 </option>
+                <option> 13 </option>
+                 <option> 12 </option>
+                 <option> 11 </option>
+                 <option> 10 </option>
+                 <option> 9 </option>
+                  <option> 8 </option>
+	   <option> 7 </option>
+	   <option> 6 </option>
+	   <option> 5 </option>
+                <option> 4 </option>
+                <option> 3 </option>
+                <option> 2 </option>
+                <option> 1 </option>
+	</select>
+ 
+             Year:
+	<select>
+	   <option> 2017 </option>
+	   <option> 2016 </option>
+	   <option> 2015 </option>
+                <option> 2014 </option>
+                <option> 2013 </option>
+                <option> 2012 </option>
+                <option> 2011 </option>
+                 <option> 2012</option>
+                 <option> 2011 </option>
+                 <option> 2010 </option>
+                 <option> 2009</option>
+                  <option> 2008 </option>
+	   <option> 2007 </option>
+	   <option> 2006 </option>
+	   <option> 2005 </option>
+                <option> 2004 </option>
+                <option> 2003 </option>
+                <option> 2002 </option>
+                <option> 2001 </option>
+                 <option> 2000 </option>
+                 <option> 1999 </option>
+                 <option> 1998 </option>
+                 <option> 1997 </option>
+                  <option> 1996 </option>
+	   <option>1995 </option>
+	   <option>1994</option>
+	   <option>1993</option>
+                <option>1992</option>
+                <option>1991</option>
+                <option> 1990 </option>
+                <option> 1989 </option>
+                 <option> 1988 </option>
+                 <option> 1987 </option>
+                 <option> 1986 </option>
+                  <option> 1985 </option>
+	   <option>1984 </option>
+	   <option>1983</option>
+	   <option>1982</option>
+                <option>1981</option>
+                <option>1980</option>
+                <option> 1979 </option>
+                 <option> 1978 </option>
+                 <option> 1977 </option>
+                 <option> 1976 </option>
+                  <option> 1975 </option>
+	   <option>1974 </option>
+	   <option>1973</option>
+	   <option>1972</option>
+                <option>1971</option>
+                <option>1970</option>
+                <option> 1969 </option>
+                 <option> 1968 </option>
+                 <option> 1967 </option>
+                 <option> 1966 </option>
+                  <option> 1965 </option>
+	   <option>1964 </option>
+	   <option>1963</option>
+	   <option>1962</option>
+                <option>1961</option>
+                <option>1960</option>    
+	</select>
+<br><br>
+<INPUT NAME:"TEXT" SIZE="50" MAXLENGHT"="50"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  	 Month:
+	<select>
+	   <option> December </option>
+	   <option> November </option>
+	   <option> October </option>
+                <option> September </option>
+                <option> August </option>
+                <option> July </option>
+                <option> June </option>
+                 <option> May </option>
+                 <option> April </option>
+                 <option> March </option>
+                 <option> February </option>
+                  <option> January </option>
+ 	</select>
+
+                  Day:
+	<select>
+	   <option> 31 </option>
+	   <option> 30</option>
+	   <option> 29 </option>
+                <option> 28 </option>
+                <option> 27 </option>
+                <option> 26 </option>
+                <option> 25</option>
+                 <option> 24 </option>
+                 <option> 23 </option>
+                 <option> 22 </option>
+                 <option> 21 </option>
+                  <option> 20 </option>
+	   <option> 19 </option>
+	   <option> 18</option>
+	   <option> 17 </option>
+                <option> 16 </option>
+                <option> 15 </option>
+                <option> 14 </option>
+                <option> 13 </option>
+                 <option> 12 </option>
+                 <option> 11 </option>
+                 <option> 10 </option>
+                 <option> 9 </option>
+                  <option> 8 </option>
+	   <option> 7 </option>
+	   <option> 6 </option>
+	   <option> 5 </option>
+                <option> 4 </option>
+                <option> 3 </option>
+                <option> 2 </option>
+                <option> 1 </option>
+	</select>
+ 
+             Year:
+	<select>
+	   <option> 2017 </option>
+	   <option> 2016 </option>
+	   <option> 2015 </option>
+                <option> 2014 </option>
+                <option> 2013 </option>
+                <option> 2012 </option>
+                <option> 2011 </option>
+                 <option> 2012</option>
+                 <option> 2011 </option>
+                 <option> 2010 </option>
+                 <option> 2009</option>
+                  <option> 2008 </option>
+	   <option> 2007 </option>
+	   <option> 2006 </option>
+	   <option> 2005 </option>
+                <option> 2004 </option>
+                <option> 2003 </option>
+                <option> 2002 </option>
+                <option> 2001 </option>
+                 <option> 2000 </option>
+                 <option> 1999 </option>
+                 <option> 1998 </option>
+                 <option> 1997 </option>
+                  <option> 1996 </option>
+	   <option>1995 </option>
+	   <option>1994</option>
+	   <option>1993</option>
+                <option>1992</option>
+                <option>1991</option>
+                <option> 1990 </option>
+                <option> 1989 </option>
+                 <option> 1988 </option>
+                 <option> 1987 </option>
+                 <option> 1986 </option>
+                  <option> 1985 </option>
+	   <option>1984 </option>
+	   <option>1983</option>
+	   <option>1982</option>
+                <option>1981</option>
+                <option>1980</option>
+                <option> 1979 </option>
+                 <option> 1978 </option>
+                 <option> 1977 </option>
+                 <option> 1976 </option>
+                  <option> 1975 </option>
+	   <option>1974 </option>
+	   <option>1973</option>
+	   <option>1972</option>
+                <option>1971</option>
+                <option>1970</option>
+                <option> 1969 </option>
+                 <option> 1968 </option>
+                 <option> 1967 </option>
+                 <option> 1966 </option>
+                  <option> 1965 </option>
+	   <option>1964 </option>
+	   <option>1963</option>
+	   <option>1962</option>
+                <option>1961</option>
+                <option>1960</option>    
+	</select>
+<br><br>
+<INPUT NAME:"TEXT" SIZE="50" MAXLENGHT"="50"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  	 Month:
+	<select>
+	   <option> December </option>
+	   <option> November </option>
+	   <option> October </option>
+                <option> September </option>
+                <option> August </option>
+                <option> July </option>
+                <option> June </option>
+                 <option> May </option>
+                 <option> April </option>
+                 <option> March </option>
+                 <option> February </option>
+                  <option> January </option>
+ 	</select>
+
+                  Day:
+	<select>
+	   <option> 31 </option>
+	   <option> 30</option>
+	   <option> 29 </option>
+                <option> 28 </option>
+                <option> 27 </option>
+                <option> 26 </option>
+                <option> 25</option>
+                 <option> 24 </option>
+                 <option> 23 </option>
+                 <option> 22 </option>
+                 <option> 21 </option>
+                  <option> 20 </option>
+	   <option> 19 </option>
+	   <option> 18</option>
+	   <option> 17 </option>
+                <option> 16 </option>
+                <option> 15 </option>
+                <option> 14 </option>
+                <option> 13 </option>
+                 <option> 12 </option>
+                 <option> 11 </option>
+                 <option> 10 </option>
+                 <option> 9 </option>
+                  <option> 8 </option>
+	   <option> 7 </option>
+	   <option> 6 </option>
+	   <option> 5 </option>
+                <option> 4 </option>
+                <option> 3 </option>
+                <option> 2 </option>
+                <option> 1 </option>
+	</select>
+ 
+             Year:
+	<select>
+	   <option> 2017 </option>
+	   <option> 2016 </option>
+	   <option> 2015 </option>
+                <option> 2014 </option>
+                <option> 2013 </option>
+                <option> 2012 </option>
+                <option> 2011 </option>
+                 <option> 2012</option>
+                 <option> 2011 </option>
+                 <option> 2010 </option>
+                 <option> 2009</option>
+                  <option> 2008 </option>
+	   <option> 2007 </option>
+	   <option> 2006 </option>
+	   <option> 2005 </option>
+                <option> 2004 </option>
+                <option> 2003 </option>
+                <option> 2002 </option>
+                <option> 2001 </option>
+                 <option> 2000 </option>
+                 <option> 1999 </option>
+                 <option> 1998 </option>
+                 <option> 1997 </option>
+                  <option> 1996 </option>
+	   <option>1995 </option>
+	   <option>1994</option>
+	   <option>1993</option>
+                <option>1992</option>
+                <option>1991</option>
+                <option> 1990 </option>
+                <option> 1989 </option>
+                 <option> 1988 </option>
+                 <option> 1987 </option>
+                 <option> 1986 </option>
+                  <option> 1985 </option>
+	   <option>1984 </option>
+	   <option>1983</option>
+	   <option>1982</option>
+                <option>1981</option>
+                <option>1980</option>
+                <option> 1979 </option>
+                 <option> 1978 </option>
+                 <option> 1977 </option>
+                 <option> 1976 </option>
+                  <option> 1975 </option>
+	   <option>1974 </option>
+	   <option>1973</option>
+	   <option>1972</option>
+                <option>1971</option>
+                <option>1970</option>
+                <option> 1969 </option>
+                 <option> 1968 </option>
+                 <option> 1967 </option>
+                 <option> 1966 </option>
+                  <option> 1965 </option>
+	   <option>1964 </option>
+	   <option>1963</option>
+	   <option>1962</option>
+                <option>1961</option>
+                <option>1960</option>    
+	</select>
+<br><br>
+Father's Name:<INPUT NAME:"TEXT" SIZE="50" MAXLENGHT"="50"> Occupation:<INPUT NAME:"TEXT" SIZE="50" MAXLENGHT"="50"><br><br>
+Mother's Name:<INPUT NAME:"TEXT" SIZE="50" MAXLENGHT"="50"> Occupation:<INPUT NAME:"TEXT" SIZE="50" MAXLENGHT"="50"><br><br>
+Person's to be contact in case of emergency:<INPUT NAME:"TEXT" SIZE="50" MAXLENGHT"="50">
+His or Her Address:<INPUT NAME:"TEXT" SIZE="80" MAXLENGHT"="80">
+<br><br>
+Contact:
+
+<SCRIPT language="Javascript">
+   
+      function isNumberKey(evt)
+      {
+         var charCode = (evt.which) ? evt.which : event.keyCode
+         if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+ 
+         return true;
+      }
+      
+   </SCRIPT>
+   </HEAD>
+   <BODY>
+      <INPUT id="txtChar" onkeypress="return isNumberKey(event)" type="text" name="txtChar">
+<br><br>
+<b><br><font color="black" size="5" face="Times New Roman"> Family Background </font></b>
+<hr>
+<br><br>
+Mother's Name: <input type="text" size="20" maxlenght="40">
+Occupation: <input type="text"  size="20" maxlenght="40">
+
+<br><br>
+
+Birthday month:
+<select>
+<option>January</option>
+<option>Febuary</option>
+<option>March</option>
+<option>April</option>
+<option>MAy</option>
+<option>June</option>
+<option>July</option>
+<option>August</option>
+<option>September</option>
+<option>October</option>
+<option>November</option>
+<option>December</option>
+</select>
+
+
+
+Day:
+<select>
+<option>0</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+<option>26</option>
+<option>27</option>
+<option>28</option>
+<option>29</option>
+<option>30</option>
+<option>31</option>
+<option>32</option>
+</select>
+
+
+Year:
+<select>
+<option>2016</option>
+<option>2015</option>
+<option>2014</option>
+<option>2013</option>
+<option>2012</option>
+<option>2011</option>
+<option>2010</option>
+<option>2009</option>
+<option>2008</option>
+<option>2007</option>
+<option>2006</option>
+<option>2005</option>
+<option>2004</option>
+<option>2003</option>
+<option>2002</option>
+<option>2001</option>
+<option>2000</option>
+<option>1999</option>
+<option>1998</option>
+<option>1997</option>
+<option>1996</option>
+<option>1995</option>
+<option>1994</option>
+<option>1993</option>
+<option>1992</option>
+<option>1991</option>
+<option>1990</option>
+<option>1989</option>
+<option>1988</option>
+<option>1987</option>
+<option>1986</option>
+<option>1985</option>
+<option>1984</option>
+<option>1983</option>
+<option>1982</option>
+<option>1981</option>
+<option>1980</option>
+<option>1979</option>
+<option>1978</option>
+<option>1977</option>
+<option>1976</option>
+<option>1975</option>
+<option>1974</option>
+<option>1973</option>
+<option>1972</option>
+<option>1971</option>
+<option>1970</option> 
+</select>
+</br></p>
+
+
+Age of Mother: <input type="text"  size="20" maxlenght="40">
+
+Contact:
+<SCRIPT language="Javascript">
+   
+      function isNumberKey(evt)
+      {
+         var charCode = (evt.which) ? evt.which : event.keyCode
+         if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+ 
+         return true;
+      }
+      
+   </SCRIPT>
+   </HEAD>
+   <BODY>
+      <INPUT id="txtChar" onkeypress="return isNumberKey(event)" type="text" name="txtChar">
+
+<br><br>
+Father's Name: <input type="text"  size="20" maxlenght="40">
+Occupation: <input type="text" " size="20" maxlenght="40">
+<p>
+Birthday month:
+<select>
+<option>January</option>
+<option>Febuary</option>
+<option>March</option>
+<option>April</option>
+<option>MAy</option>
+<option>June</option>
+<option>July</option>
+<option>August</option>
+<option>September</option>
+<option>October</option>
+<option>November</option>
+<option>December</option>
+</select>
+
+
+Day:
+<select>
+<option>0</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+<option>26</option>
+<option>27</option>
+<option>28</option>
+<option>29</option>
+<option>30</option>
+<option>31</option>
+<option>32</option>
+</select>
+
+
+Year:
+<select>
+<option>2016</option>
+<option>2015</option>
+<option>2014</option>
+<option>2013</option>
+<option>2012</option>
+<option>2011</option>
+<option>2010</option>
+<option>2009</option>
+<option>2008</option>
+<option>2007</option>
+<option>2006</option>
+<option>2005</option>
+<option>2004</option>
+<option>2003</option>
+<option>2002</option>
+<option>2001</option>
+<option>2000</option>
+<option>1999</option>
+<option>1998</option>
+<option>1997</option>
+<option>1996</option>
+<option>1995</option>
+<option>1994</option>
+<option>1993</option>
+<option>1992</option>
+<option>1991</option>
+<option>1990</option>
+<option>1989</option>
+<option>1988</option>
+<option>1987</option>
+<option>1986</option>
+<option>1985</option>
+<option>1984</option>
+<option>1983</option>
+<option>1982</option>
+<option>1981</option>
+<option>1980</option>
+<option>1979</option>
+<option>1978</option>
+<option>1977</option>
+<option>1976</option>
+<option>1975</option>
+<option>1974</option>
+<option>1973</option>
+<option>1972</option>
+<option>1971</option>
+<option>1970</option>
+</select>
+</br></p>
+Age of Father: <input type="text"  size="20" maxlenght="40">
+
+Contact:
+<SCRIPT language="Javascript">
+   
+      function isNumberKey(evt)
+      {
+         var charCode = (evt.which) ? evt.which : event.keyCode
+         if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+ 
+         return true;
+      }
+      
+   </SCRIPT>
+   </HEAD>
+   <BODY>
+      <INPUT id="txtChar" onkeypress="return isNumberKey(event)" type="text" name="txtChar">
+
+
+<p>
+Guardian's Name: <input type="text"  size="20" maxlenght="40">
+Occupation: <input type="text" " size="20" maxlenght="40">
+<p>
+Birthday month:
+<select>
+<option>January</option>
+<option>Febuary</option>
+<option>March</option>
+<option>April</option>
+<option>MAy</option>
+<option>June</option>
+<option>July</option>
+<option>August</option>
+<option>September</option>
+<option>October</option>
+<option>November</option>
+<option>December</option>
+</select>
+
+
+Day:
+<select>
+<option>0</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+<option>26</option>
+<option>27</option>
+<option>28</option>
+<option>29</option>
+<option>30</option>
+<option>31</option>
+<option>32</option>
+</select>
+
+
+Year:
+<select>
+<option>2016</option>
+<option>2015</option>
+<option>2014</option>
+<option>2013</option>
+<option>2012</option>
+<option>2011</option>
+<option>2010</option>
+<option>2009</option>
+<option>2008</option>
+<option>2007</option>
+<option>2006</option>
+<option>2005</option>
+<option>2004</option>
+<option>2003</option>
+<option>2002</option>
+<option>2001</option>
+<option>2000</option>
+<option>1999</option>
+<option>1998</option>
+<option>1997</option>
+<option>1996</option>
+<option>1995</option>
+<option>1994</option>
+<option>1993</option>
+<option>1992</option>
+<option>1991</option>
+<option>1990</option>
+<option>1989</option>
+<option>1988</option>
+<option>1987</option>
+<option>1986</option>
+<option>1985</option>
+<option>1984</option>
+<option>1983</option>
+<option>1982</option>
+<option>1981</option>
+<option>1980</option>
+<option>1979</option>
+<option>1978</option>
+<option>1977</option>
+<option>1976</option>
+<option>1975</option>
+<option>1974</option>
+<option>1973</option>
+<option>1972</option>
+<option>1971</option>
+<option>1970</option>
+</select>
+</br></p>
+Contact:
+<SCRIPT language="Javascript">
+   
+      function isNumberKey(evt)
+      {
+         var charCode = (evt.which) ? evt.which : event.keyCode
+         if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+ 
+         return true;
+      }
+      
+   </SCRIPT>
+   </HEAD>
+   <BODY>
+      <INPUT id="txtChar" onkeypress="return isNumberKey(event)" type="text" name="txtChar">
+</p>
+<br><br>
+
+
+<b><font color="black" size="5" face="Times New Roman">Educational Background:</font></b>
+<hr>
+<br><br>
+<br><br>
+Primary:<INPUT NAME:"TEXT" SIZE="50" MAXLENGHT"="50">
+Award:<textarea wrap="virtual" rows=1 cols=40
+maxlenght=50></textarea>
+<p>
+Address:<textarea wrap="virtual" rows=1 cols=40
+maxlenght=50></textarea>
+Year: <input type="text"  size="20" maxlenght="30">
+</p>
+
+<br> <br>
+Secondary:<INPUT NAME:"TEXT" SIZE="50" MAXLENGHT"="50">
+Award:<INPUT NAME:"TEXT" SIZE="50" MAXLENGHT"="50">
+<p>
+Address: <textarea wrap="virtual" rows=1 cols=40
+maxlenght=50></textarea>
+Year: <input type="text" size="20" maxlenght="30">
+</p>
+<br> <br>
+College: <textarea wrap="virtual" rows=1 cols=40
+maxlenght=50></textarea>
+Award:<textarea wrap="virtual" rows=1 cols=40
+maxlenght=50></textarea>
+<p>
+Address: <textarea wrap="virtual" rows=1 cols=40
+maxlenght=50></textarea>
+Year: <input type="text"  size="20" maxlenght="30">
+</p>
+<br>
+<br><br>
+
+
+<b><font color="black" size="5" face="Times New Roman">Skills:</font></b>
+<hr>
+<br><br>
+ <textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+ <textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+<br><br>
+ <textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+ <textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+<br><br>
+ <textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+ <textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+<br><br>
+
+<br><br>
+<b><font color="black" size="5" face="Times New Roman">Experience:</font></b>
+<hr>
+<br><br>
+ <textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+ <textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+<br><br>
+ <textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+ <textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+<br><br>
+ <textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+ <textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+<br><br>
+
+<b><font color="black" size="5" face="Times New Roman">Character References:</font><b>
+<hr>
+<br><br>
+Name<textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+Work<textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+<br><br>
+ Name<textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+ Work<textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+<br><br>
+ Name<textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+ Work<textarea wrap="virtual" rows=1 cols=40
+maxlenght=100></textarea>
+<br><br>
+
+<br>
+<p align="right">_______________________</p>
+<p align="right">Applicant Signature</p>
+<br>
+
+Enter Your Comments:<br>
+ <textarea wrap="Virtual" name="Comments" rows="3" cols="100"
+ maxlength=100></textarea><br>
+
+ <input type="Submit" value="Submit">
+ <input type="Reset" value="Clear">
+<hr>
+<button onclick="myFunction()">Print</button>
+
+<script>
+function myFunction() {
+    window.print();
+}
+</script>
+
+
+</form>
+</body>
